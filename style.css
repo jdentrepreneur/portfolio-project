@@ -1,0 +1,119 @@
+/* 
+  Custom styles for the portfolio project 
+*/
+
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main layout */
+main {
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-info {
+    text-align: center;
+}
+
+.avatar-box img {
+    border-radius: 50%;
+}
+
+.info-content {
+    margin-top: 10px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* About section styles */
+.about {
+    margin-top: 20px;
+}
+
+.service {
+    margin-top: 40px;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Testimonials styles */
+.testimonials {
+    margin-top: 40px;
+}
+
+.testimonials-item {
+    margin-bottom: 20px;
+}
+
+/* Clients section styles */
+.clients {
+    margin-top: 40px;
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-item {
+    margin-right: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
